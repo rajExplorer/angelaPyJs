@@ -1,0 +1,6 @@
+function findLengthOfString()
+{
+    stringName=prompt("Enter the string");
+    console.log(stringName.length);
+}
+findLengthOfString()
