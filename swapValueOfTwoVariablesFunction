@@ -1,0 +1,25 @@
+function swapValueOfTwoVariables()
+{
+    let firstVariable=prompt("Enter first variable");
+    let secondVariable=prompt("Enter second variable");
+    let swap;
+    swap=firstVariable;
+    firstVariable=secondVariable;
+    secondVariable=swap;
+    alert(`First variable value is ${firstVariable}\nSecond variable value is ${secondVariable}`);
+}
+swapValueOfTwoVariables();
+or
+/*
+function swapValueOfTwoVariables()
+{
+    let firstVariable=prompt("Enter first variable");
+    let secondVariable=prompt("Enter second variable");
+    let swap;
+    swap=firstVariable;
+    firstVariable=secondVariable;
+    secondVariable=swap;
+    console.log(`First variable value is ${firstVariable}\nSecond variable value is ${secondVariable}`);
+}
+swapValueOfTwoVariables();
+*/
