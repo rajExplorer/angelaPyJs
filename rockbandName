@@ -1,5 +1,5 @@
 // Do you wanna name your rock band 
 // Then let our software do that for you
-yourCityName=prompt('What is your city name');
-yourPetName=prompt('What is your pet name');
-alert(`Your rock band name is {${yourCityName} ${yourPetName}s`); 
+let yourCityName=prompt('What is your city name');
+let yourPetName=prompt('What is your pet name');
+alert(`Your rock band name is ${yourCityName} ${yourPetName}s`); 
